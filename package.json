@@ -10,16 +10,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "angular2": "^2.0.0-alpha.46"
+    "angular2": "~2.0.0-beta.0"
   },
   "jspm": {
     "dependencies": {
-      "angular2": "npm:angular2@^2.0.0-alpha.46",
+      "angular2": "npm:angular2@^2.0.0-beta.0",
       "bootstrap": "github:twbs/bootstrap@^3.3.5",
       "css": "github:systemjs/plugin-css@^0.1.19"
     },
     "devDependencies": {
-      "typescript": "npm:typescript@^1.6.2"
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4",
+      "typescript": "npm:typescript@^1.7"
     }
   },
   "devDependencies": {
