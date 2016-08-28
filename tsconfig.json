@@ -5,8 +5,8 @@
 		"target": "es5",
 		"module": "commonjs"
 	},
-	"files": [
-		"app/app.ts",
-        "typings/main.d.ts"
+	"exclude": [
+        "node_modules",
+        "jspm_packages"
     ]
 }
